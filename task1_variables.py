@@ -26,16 +26,4 @@ print(f"Age:{age} {type(age)}")
 
 # 2. Why is strict type enforcement preferred in system-level software but not in scripting
 # languages?
-# System-Level Software (C,C++): Strict Typing:
-# - Performance: No runtime type checking so faster execution, compiler optimizes ahead of time
-# - Safety: Type errors caught before running 
-# - Predictability: Exact memory usage known beforehand which is critical for embedded systems/OS
-
-# Scripting Languages (Python, JavaScript) : Dynamic Typing:
-
-# Fast development: Don't declare types, write code quickly.Speed of writing code > speed of running code
-# Flexibility: Same code handles different types, processes varied inputs
-# Lower risk: Script crashes don't bring down systems, easy to fix .
-
-
-
+# Strict typing is preferred in system-level software for better performance(faster execution), safety(type error caught in compile time before running ), and predictable memory usage( Exact memory usage known beforehand ), while dynamic typing is preferred in scripting languages for rapid development, flexibility, and ease of maintenance(lower risk of crash).
