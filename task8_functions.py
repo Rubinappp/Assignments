@@ -32,7 +32,7 @@ output(average_marks,grade)
 
 # Conceptual / Brainstorming Questions 
 # 1. Why is returning values better than printing inside functions? 
-# Reusability : returned valued can be reused for further calculation ,tested , or can reuse that return value by  passing to other functions.
+# Reusability : returned valued can be reused for further calculation ,testing , or can reuse that return value by  passing to other functions.
 
 
 
