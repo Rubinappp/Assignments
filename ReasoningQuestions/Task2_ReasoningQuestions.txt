@@ -1,0 +1,12 @@
+Reasoning Questions
+1. Why does Python delay type errors until runtime, unlike compiled languages?
+
+Python is an interpreted language with dynamic typing as  it doesn't have a compilation step that checks types beforehand.
+
+2. How could unvalidated user input compromise real-world systems (e.g., billing,
+voting)?
+- If systems don't check/validate input,user may input invalid input or even attackers can inject malicious data that causes incorrect behavior, data corruption, or security breaches.
+- System may crash at run time.
+Eg:
+Billing: Negative quantity → refunds instead of charges
+Voting: Multiple votes or negative votes → election fraud

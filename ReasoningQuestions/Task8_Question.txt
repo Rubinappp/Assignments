@@ -1,0 +1,3 @@
+Conceptual / Brainstorming Questions 
+1. Why is returning values better than printing inside functions? 
+Reusability = returned valued can be used for further calculation ,tested , or can reuse that return value by  passing to other functions.

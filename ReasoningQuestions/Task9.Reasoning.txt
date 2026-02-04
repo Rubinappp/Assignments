@@ -1,0 +1,4 @@
+Reasoning Questions 
+1. What changes would be required to convert this into a web application?
+
+To convert this program into a web application, console input/output must be replaced with HTML forms and pages, the menu loop replaced with web routes using a framework like Flask or Django, lists replaced by a database, and HTTP request handling, validation, and security added.

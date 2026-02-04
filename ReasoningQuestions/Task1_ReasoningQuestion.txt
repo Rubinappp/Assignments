@@ -1,0 +1,25 @@
+1. How does Python’s dynamic typing influence memory allocation and runtime behavior?
+- age starts as an int ,later becomes a str.No error occurs because Python is dynamically typed.
+- Variables do not store values directly,they store references to objects in memory.Object is allocated on heap at run time.
+- Each object carries:
+Its value
+Its type
+Reference count
+- Python integers since it is an object use ~28 bytes vs 4 bytes in C
+- Uses more memory than statically-typed 
+- runtime type checking makes it slower
+
+
+2. Why is strict type enforcement preferred in system-level software but not in scripting
+languages?
+System-Level Software (C,C++,Rust): Strict Typing:
+- Performance: No runtime type checking = faster execution, compiler optimizes ahead of time
+- Safety: Type errors caught before running → prevents system crashes, security holes, memory corruption
+- Predictability: Exact memory usage known beforehand, critical for embedded systems/OS
+
+Scripting Languages (Python, JavaScript, Ruby) : Dynamic Typing:
+
+Fast development: Don't declare types, write code quickly.
+Flexibility: Same code handles different types, processes varied inputs
+Lower risk: Script crashes don't bring down systems, easy to fix .
+Priority: Speed of writing code > speed of running code
